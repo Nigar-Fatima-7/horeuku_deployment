@@ -31,5 +31,5 @@ def predict():
     return render_template('home.html' , predict = f'the person is {ans}' )
 
 #run the app
-if__name__=='__main__':
+if __name__=='__main__':
     app.run(debug=True)
